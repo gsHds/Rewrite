@@ -5,8 +5,8 @@
 支持1.8.2版本
 [rewrite_local]
 # 聊天 / 开场白 / 超级对话（覆盖所有 *-ow-msg / *-stream-msg / stream_super_msg）
-^https://sea\.api\.lovekeyboard\.com/\S*(?:-(?:ow|stream)-msg|stream_super_msg) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/lovekey.js
-https://sea.api.lovekeyboard.com/v2/account url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/lovekey.js
+^https://sea\.api\.lovekeyboard\.com/\S*(?:-(?:ow|stream)-msg|stream_super_msg) url script-request-header https://raw.githubusercontent.com/ios151/Rewrite/refs/heads/main/lovekey.js
+https://sea.api.lovekeyboard.com/v2/account url script-response-body https://raw.githubusercontent.com/ios151/Rewrite/refs/heads/main/lovekey.js
  
 [mitm]
 hostname = sea.api.lovekeyboard.com
